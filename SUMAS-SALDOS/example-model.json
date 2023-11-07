@@ -9,6 +9,7 @@
             "subsidiary": "Sucursal 1",
             "areas": [
                 {
+                    "subsidiaryId": 2,
                     "areaId": 1,
                     "area": "Area 1",
                     "accounts": [
@@ -35,6 +36,7 @@
                     "totalBalancesCreditAmount": 100
                 },
                 {
+                    "subsidiaryId": 2,
                     "areaId": 2,
                     "area": "Area 2",
                     "accounts": [
@@ -67,6 +69,7 @@
             "subsidiary": "Sucursal 2",
             "areas": [
                 {
+                    "subsidiaryId": 2,
                     "areaId": 1,
                     "area": "Area 1",
                     "accounts": [
@@ -93,6 +96,7 @@
                     "totalBalancesCreditAmount": 100
                 },
                 {
+                    "subsidiaryId": 2,
                     "areaId": 2,
                     "area": "Area 2",
                     "accounts": [
