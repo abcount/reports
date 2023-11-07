@@ -3,6 +3,12 @@
     "companyName":"GMMTV",
     "dateTo":"05/01/2023",
     "currency":"Bolivianos",
+    "responsible":[
+      "Sebastian Belmonte",
+      "Micaela Gordillo",
+      "Juan Neves",
+      "Alejandro Flores"
+   ],
     "subsidiaries":[
        {
           "subsidiaryId":1,
@@ -204,12 +210,6 @@
              }
           ]
        }
-    ],
-    "responsible":[
-       "Sebastian Belmonte",
-       "Micaela Gordillo",
-       "Juan Neves",
-       "Alejandro Flores"
     ]
  }
  
