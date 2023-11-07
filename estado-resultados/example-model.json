@@ -1,73 +1,80 @@
 {
-    "logo": "",
-    "title": "Balance General",
-    "companyName": "GMMTV",
-    "dateTo": "05/01/2023",
-    "currency": "Bolivianos",
-    "data": [
+  "logo": "",
+  "title": "Balance General",
+  "companyName": "GMMTV",
+  "dateTo": "05/01/2023",
+  "currency": "Bolivianos",
+  "subsidiaries": [
       {
-        "accounts": [
-          {
-            "accountCode": "4",
-            "accountName": "Ingresos",
-            "amount": 200,
-            "children": [
+          "subsidiaryId": 1,
+          "subsidiaryName": "Sucursal 1",
+          "areas": [
               {
-                "accountCode": "41",
-                "accountName": "Ingreso pasivo",
-                "amount": 80,
-                "children": [
-                  {
-                    "accountCode": "411",
-                    "accountName": "Ingreso agresivo",
-                    "amount": 80,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "accountCode": "42",
-                "accountName": "Ingreso xd",
-                "amount": 120,
-                "children": []
+                  "areaId": 1,
+                  "areaName": "Area 1",
+                  "accounts": [
+                      {
+                          "accountCode": "4",
+                          "accountName": "Ingresos",
+                          "amount": 200,
+                          "children": [
+                              {
+                                  "accountCode": "41",
+                                  "accountName": "Ingreso pasivo",
+                                  "amount": 80,
+                                  "children": [
+                                      {
+                                          "accountCode": "411",
+                                          "accountName": "Ingreso agresivo",
+                                          "amount": 80,
+                                          "children": []
+                                      }
+                                  ]
+                              },
+                              {
+                                  "accountCode": "42",
+                                  "accountName": "Ingreso xd",
+                                  "amount": 120,
+                                  "children": []
+                              }
+                          ]
+                      },
+                      {
+                          "accountCode": "5",
+                          "accountName": "Gastos",
+                          "amount": 150,
+                          "children": [
+                              {
+                                  "accountCode": "51",
+                                  "accountName": "Gasto corriente",
+                                  "amount": 120,
+                                  "children": [
+                                      {
+                                          "accountCode": "511",
+                                          "accountName": "Gasto corriente",
+                                          "amount": 100,
+                                          "children": []
+                                      },
+                                      {
+                                          "accountCode": "512",
+                                          "accountName": "Gasto f",
+                                          "amount": 20,
+                                          "children": []
+                                      }
+                                  ]
+                              },
+                              {
+                                  "accountCode": "52",
+                                  "accountName": "Gasto no corriente",
+                                  "amount": 30,
+                                  "children": []
+                              }
+                          ]
+                      }
+                  ]
               }
-            ]
-          },
-          {
-            "accountCode": "5",
-            "accountName": "Gastos",
-            "amount": 150,
-            "children": [
-              {
-                "accountCode": "51",
-                "accountName": "Gasto corriente",
-                "amount": 120,
-                "children": [
-                  {
-                    "accountCode": "511",
-                    "accountName": "Gasto corriente",
-                    "amount": 100,
-                    "children": []
-                  },
-                  {
-                    "accountCode": "512",
-                    "accountName": "Gasto f",
-                    "amount": 20,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "accountCode": "52",
-                "accountName": "Gasto no corriente",
-                "amount": 30,
-                "children": []
-              }
-            ]
-          }
-        ]
+          ],
+          "amountTotal": 80
       }
-    ],
-    "amountTotal": 80
-  }
-  
+  ]
+}
